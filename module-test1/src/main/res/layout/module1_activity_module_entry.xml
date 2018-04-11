@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="这是第一个module组件的入口"/>
+
+    <Button
+        android:id="@+id/module1_btn_enter"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="点击进入这个组件的首页"
+        android:onClick="goToModuleMainActivity"/>
+
+</LinearLayout>

@@ -1,0 +1,11 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.commai.module_test1">
+    <application>
+        <activity
+            android:name="com.commai.module_test1.MoudleIndexActivity"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".activity.Test1MainActivity" />
+    </application>
+
+</manifest>
