@@ -6,6 +6,7 @@
             android:screenOrientation="portrait">
         </activity>
         <activity android:name=".activity.Test1MainActivity" />
+        <activity android:name=".activity.FillFormActivity" />
     </application>
 
 </manifest>

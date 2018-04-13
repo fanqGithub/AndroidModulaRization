@@ -3,14 +3,14 @@
     package="com.commai.module_test1">
 
     <application
-        android:name="debug.Test1Application"
+        android:name="debug.Test2Application"
         android:allowBackup="true"
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:replace="android:allowBackup">
         <!--测试入口activity 只有在module环境下配置-->
-        <activity android:name=".MoudleIndexActivity">
+        <activity android:name="com.commai.module_test2.MessageTestEntryActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -18,7 +18,5 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".activity.Test1MainActivity" />
-        <activity android:name=".activity.FillFormActivity" />
     </application>
 </manifest>

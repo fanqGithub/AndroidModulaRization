@@ -5,6 +5,7 @@ buildscript {
     repositories {
         google()
         jcenter()
+        mavenCentral() // add repository
     }
     dependencies {
         classpath 'com.android.tools.build:gradle:3.0.1'
@@ -31,10 +32,10 @@ ext {
     minSdkVersion = 15
     targetSdkVersion = 26
     compileSdkVersion = 26
-    buildToolsVersion = '26.1.0'
+    buildToolsVersion = '27.0.2'
 
     // App dependencies
-    supportLibraryVersion = '26.1.0'
+    supportLibraryVersion = '27.0.2'
     constraintVersion = '1.0.2'
     junitVersion = '4.12'
     retrofitVersion = '2.2.0'
@@ -52,4 +53,6 @@ ext {
     arouterCompilerVersion = '1.1.4'
     easypermissionVersion = '0.3.1'
     autoScrollViewPagerVersion = '2.1.7'
+
+    glideVersion='4.3.1'
 }
